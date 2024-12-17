@@ -1,0 +1,114 @@
+[debug] [2024-11-08T15:36:13.154Z] ----------------------------------------------------------------------
+[debug] [2024-11-08T15:36:13.157Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Kavishni S\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-08T15:36:13.157Z] CLI Version:   13.24.2
+[debug] [2024-11-08T15:36:13.157Z] Platform:      win32
+[debug] [2024-11-08T15:36:13.157Z] Node Version:  v20.17.0
+[debug] [2024-11-08T15:36:13.157Z] Time:          Fri Nov 08 2024 21:06:13 GMT+0530 (India Standard Time)
+[debug] [2024-11-08T15:36:13.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-08T15:36:13.224Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T15:36:13.224Z] > authorizing via signed-in user (kavishnisargunam06@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Kavishni S\Documents\Kavi\jvl-code-angular\mini-ecommerce\backend
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-08T15:36:24.764Z] Using project from CLI flag: login-3a500
+[debug] [2024-11-08T15:36:24.766Z] Checked if tokens are valid: true, expires at: 1731083192396
+[debug] [2024-11-08T15:36:24.767Z] Checked if tokens are valid: true, expires at: 1731083192396
+[debug] [2024-11-08T15:36:24.770Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 [none]
+[debug] [2024-11-08T15:36:26.251Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 200
+[debug] [2024-11-08T15:36:26.252Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 {"projectId":"login-3a500","projectNumber":"559719635542","displayName":"Login","name":"projects/login-3a500","resources":{"hostingSite":"login-3a500"},"state":"ACTIVE","etag":"1_bc1064ad-986c-407b-931a-6ca56a399d2f"}
+[info] i  Using project login-3a500 (Login) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-08T15:36:26.266Z] Checked if tokens are valid: true, expires at: 1731083192396
+[debug] [2024-11-08T15:36:26.267Z] Checked if tokens are valid: true, expires at: 1731083192396
+[debug] [2024-11-08T15:36:26.267Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 [none]
+[debug] [2024-11-08T15:36:26.749Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 200
+[debug] [2024-11-08T15:36:26.750Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/login-3a500 {"projectId":"login-3a500","projectNumber":"559719635542","displayName":"Login","name":"projects/login-3a500","resources":{"hostingSite":"login-3a500"},"state":"ACTIVE","etag":"1_bc1064ad-986c-407b-931a-6ca56a399d2f"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  public/404.html is unchanged 
+[debug] [2024-11-08T15:37:06.591Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-08T15:37:07.004Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-08T15:37:07.005Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.1","browserURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.1/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.memory.js"}}
+[info] i  public/index.html is unchanged 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Kavishni S\Documents\Kavi\jvl-code-angular\mini-ecommerce\backend is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=933025178&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-11-08T15:37:39.054Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-11-08T15:37:39.054Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-11-08T15:37:39.965Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-11-08T15:37:39.966Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-11-08T15:37:39.976Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-11-08T15:37:40.488Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-11-08T15:37:40.488Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Kavishni06","id":131860681,"node_id":"U_kgDOB9wIyQ","avatar_url":"https://avatars.githubusercontent.com/u/131860681?v=4","gravatar_id":"","url":"https://api.github.com/users/Kavishni06","html_url":"https://github.com/Kavishni06","followers_url":"https://api.github.com/users/Kavishni06/followers","following_url":"https://api.github.com/users/Kavishni06/following{/other_user}","gists_url":"https://api.github.com/users/Kavishni06/gists{/gist_id}","starred_url":"https://api.github.com/users/Kavishni06/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Kavishni06/subscriptions","organizations_url":"https://api.github.com/users/Kavishni06/orgs","repos_url":"https://api.github.com/users/Kavishni06/repos","events_url":"https://api.github.com/users/Kavishni06/events{/privacy}","received_events_url":"https://api.github.com/users/Kavishni06/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Kavishni S","company":null,"blog":"","location":"Coimbatore","email":null,"hireable":null,"bio":"I am a passionate Computer Science Engineer with a strong specialization in Java, frontend development and SQL.I continuously strive to expand my skill set.","twitter_username":null,"notification_email":null,"public_repos":8,"public_gists":0,"followers":0,"following":0,"created_at":"2023-04-26T08:41:58Z","updated_at":"2024-08-23T11:19:32Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":26864,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Kavishni06 
+[info] 
+[debug] [2024-11-08T15:38:13.602Z] >>> [apiv2][query] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key type=owner
+[debug] [2024-11-08T15:38:14.370Z] <<< [apiv2][status] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key 404
+[debug] [2024-11-08T15:38:14.370Z] <<< [apiv2][body] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-08T15:38:26.394Z] >>> [apiv2][query] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key type=owner
+[debug] [2024-11-08T15:38:27.065Z] <<< [apiv2][status] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key 404
+[debug] [2024-11-08T15:38:27.065Z] <<< [apiv2][body] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-08T15:39:51.954Z] >>> [apiv2][query] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key type=owner
+[debug] [2024-11-08T15:39:52.879Z] <<< [apiv2][status] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key 404
+[debug] [2024-11-08T15:39:52.880Z] <<< [apiv2][body] GET https://api.github.com/repos/dist/EliteBuy/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-08T15:40:01.238Z] >>> [apiv2][query] GET https://api.github.com/repos/dist/EliteBuycls/actions/secrets/public-key type=owner
+[debug] [2024-11-08T15:40:02.195Z] <<< [apiv2][status] GET https://api.github.com/repos/dist/EliteBuycls/actions/secrets/public-key 404
+[debug] [2024-11-08T15:40:02.195Z] <<< [apiv2][body] GET https://api.github.com/repos/dist/EliteBuycls/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
