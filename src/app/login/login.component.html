@@ -1,0 +1,38 @@
+<br><br>
+<h1>Welcome to <i>EliteBuy</i>!</h1>
+<br>
+
+<div class="login-container" style="background-color: rgb(174, 118, 226);">
+  <div class="image-box">
+    <img src="/assets/images/login" alt="Login Image" />
+  </div>
+  <div class="form-box">
+    <h2>Login</h2>
+    <form (ngSubmit)="login()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          [(ngModel)]="username"
+          name="username"
+          required
+          class="form-control"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          [(ngModel)]="password"
+          name="password"
+          required
+          class="form-control"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary" style="background-color: rgb(255, 176, 67);">Login</button>
+    </form>
+    <p>Don't have an account? <a routerLink="/register" style="color:rgb(255, 176, 67);">Register here</a></p>
+  </div>
+</div>
